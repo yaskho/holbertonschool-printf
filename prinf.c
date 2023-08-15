@@ -31,7 +31,7 @@ int _printf(const char *format, ...)
 			if (print_function)
 				a = a + print_function(args);
 			else
-				a = _printf("%%%c, *p");
+				a = _printf("%%%c", *p);
 		}
 
 		else
