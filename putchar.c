@@ -15,7 +15,7 @@ int _putchar(char c)
 }
 
 /**
- * _puts - print a string
+ * _putchar_string - print a string
  * @str: the string to print
  * Return: string's length
 */

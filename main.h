@@ -5,6 +5,11 @@
 #include <stdlib.h>
 #include <unistd.h>
 
+/**
+ * struct format - a struct of char and the function
+ * @c: char
+ * @function: the required function
+*/
 typedef struct format
 {
 	char c;

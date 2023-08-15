@@ -1,9 +1,8 @@
 #include "main.h"
 /**
- *
- *
- *
- *
+ * _printf - print the required output
+ *@format: the given format
+ *Return: num of written charcters
 */
 int _printf(const char *format, ...)
 {
@@ -25,7 +24,7 @@ int _printf(const char *format, ...)
 			p++;
 			if (*p == '%')
 			{
-			  a = a + _putchar('%');
+				a = a + _putchar('%');
 				continue;
 			}
 			print_function = select_func(*p);
@@ -40,5 +39,5 @@ int _printf(const char *format, ...)
 
 	}
 	va_end(args);
-	return(a);
+	return (a);
 }

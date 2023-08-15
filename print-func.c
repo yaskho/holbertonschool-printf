@@ -7,10 +7,11 @@
 
 int print_char(va_list args)
 {
-    char c;
-    c = va_arg(args, int);
-    _putchar(c);
-    return(1);
+	char c;
+
+	c = va_arg(args, int);
+	_putchar(c);
+	return (1);
 }
 /**
 *print_string - print string
@@ -25,8 +26,8 @@ int print_string(va_list args)
 	s = va_arg(args, char *);
 	if (s == NULL)
 		s = "(null)";
-    i = _putchar_string(s);
-    return (i);   
+	i = _putchar_string(s);
+	return (i);
 }
 
 /**
