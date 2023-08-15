@@ -19,7 +19,7 @@ int _putchar(char c)
  * @str: the string to print
  * Return: string's length
 */
-int putchar_string(char *str)
+int _putchar_string(char *str)
 {
 	int i;
 
